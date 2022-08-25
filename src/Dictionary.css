@@ -10,7 +10,7 @@ form input {
 }
 .Dictionary input {
   width: 100%;
-  padding: 7px;
+  padding: 7px 15px;
   border: 1px solid #333;
   border-radius: 4px;
 }
