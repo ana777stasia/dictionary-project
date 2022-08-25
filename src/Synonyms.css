@@ -1,0 +1,9 @@
+.Synonyms li {
+  font-size: 18px;
+  font-family: "Source Serif Pro", serif;
+  line-height: 2;
+  font-style: italic;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 15px;
+}
