@@ -13,4 +13,11 @@ form input {
   padding: 7px 15px;
   border: 1px solid #333;
   border-radius: 4px;
+  font-size: 18px;
+}
+.Dictionary h2 {
+  font-family: "Signika Negative", sans-serif;
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: bold;
 }

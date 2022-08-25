@@ -4,7 +4,7 @@ import "./Dictionary.css";
 import Results from "./Results";
 
 export default function Dictionary() {
-  const [keyword, setKeyword] = useState("sunset");
+  const [keyword, setKeyword] = useState("");
   const [results, setResults] = useState(null);
 
   function handleResponse(response) {
@@ -24,11 +24,11 @@ export default function Dictionary() {
   return (
     <div className="Dictionary">
       <form onSubmit={search}>
+        <h2>What word do you want to look up?</h2>
         <input
           type="search"
           placeholder="search for a word..."
           onChange={handleWordChanges}
-          defaultValue={keyword}
         />
       </form>
       <Results results={results} />
