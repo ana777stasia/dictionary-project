@@ -1,24 +1,10 @@
 .Phonetic span {
   font-family: "Source Serif Pro", serif;
-  font-size: 20px;
+  font-size: 24px;
   opacity: 0.7;
   line-height: 2;
-  margin-left: 10px;
+  margin-bottom: 20px;
 }
-.Phonetic a {
-  text-decoration: none;
-  font-family: "Source Serif Pro", serif;
-  font-size: 18px;
-  border: 1px solid rgb(226, 225, 225);
-  padding: 10px 25px;
-  border-radius: 30px;
-  color: #9771f3;
-  transition: all 150ms ease-in-out;
-  background: #f1f1f1;
-  display: inline-flex;
-  margin-bottom: 10px;
-}
-.Phonetic a:hover {
-  background: #9771f3;
-  color: white;
+.Phonetic .audio-player {
+  margin-top: 10px;
 }
