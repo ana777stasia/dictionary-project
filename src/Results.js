@@ -8,10 +8,10 @@ export default function Results(props) {
   if (props.results) {
     return (
       <div className="Results">
-        <section>
+        <section className="shadow">
           <h2>{props.results.word}</h2>
           {props.results.phonetics.map((phonetic, index) => {
-            return <Phonetic phonetic={phonetic} />;
+            return <Phonetic phonetic={phonetic} key={index} />;
           })}
         </section>
         {props.results.meanings.map((meaning, index) => {
